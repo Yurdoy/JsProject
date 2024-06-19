@@ -6,22 +6,34 @@
 
 header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: left; */
   align-items: center;
-  padding: 20px;
-  background-color: #f0f0f0;
+  width: 1512px;
+  height: 64px;
+  /* background-color: #f0f0f0; */
+  gap: 40px;
 }
 
 .logo img {
-  width: 100px; /* Установите ширину логотипа по вашему усмотрению */
-  height: auto;
+  width: 94.34px;
+  height: 34px;
+  left: 24px;
+  top: 15px;
+  bottom: 15px;
+  right: 40px;
 }
 
 .search-bar input[type="text"] {
   padding: 8px;
-  width: 200px; /* Установите ширину поля поиска по вашему усмотрению */
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  width: 300px;
+  height: 42px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid #d9d9d9;
+  left: 158.34px;
+  background-image: url("/JsProject/assets/images/searchIcon.svg");
+  background-repeat: no-repeat;
+  background-position: 12.75px;
+  background-size: auto;
 }
 
 .search-bar button {
