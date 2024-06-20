@@ -6,12 +6,12 @@
 
 header {
   display: flex;
-  /* justify-content: left; */
+  justify-content: center;
   align-items: center;
   width: 1512px;
   height: 64px;
   /* background-color: #f0f0f0; */
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .logo img {
@@ -24,16 +24,44 @@ header {
 }
 
 .search-bar input[type="text"] {
-  padding: 8px;
+  padding-left: 37px;
   width: 300px;
   height: 42px;
   border-radius: 8px 0px 0px 8px;
   border: 1px solid #d9d9d9;
-  left: 158.34px;
+  /* left: 158.34px; */
   background-image: url("/JsProject/assets/images/searchIcon.svg");
   background-repeat: no-repeat;
   background-position: 12.75px;
   background-size: auto;
+}
+
+.search-location input[type="text"] {
+  padding: 8px;
+  width: 254px;
+  height: 42px;
+  /* border-radius: 8px 0px 0px 8px; */
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  border-left: none;
+  /* left: 158.34px; */
+  /* background-image: url("/JsProject/assets/images/searchIcon.svg"); */
+  /* background-repeat: no-repeat;
+  background-position: 12.75px;
+  background-size: auto; */
+}
+
+.search-magnifier-red {
+  margin-top: 4px;
+  width: 42px;
+  height: 42px;
+  background-color: #f65858;
+  border-radius: 0px 8px 8px 0px;
+  background-image: url("/JsProject/assets/images/magnifierIconRedBtn.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
 }
 
 .search-bar button {
@@ -46,9 +74,11 @@ header {
 }
 
 .language-selector select {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding-left: 30px;
+  border: none;
+  background-image: url("/JsProject/assets/images/lenguageGlobeIcon.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
 
 .user-actions button {
