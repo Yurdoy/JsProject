@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  margin-left: 204px;
+  margin-right: 204px;
+  width: 1920px;
+  height: 3826.5px;
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   display: flex;
   /* justify-content: space-evenly; */
@@ -14,7 +22,7 @@ header {
   /* gap: 40px; */
 }
 
-#search-panel {
+.search-panel {
   display: flex;
   justify-self: start;
   width: 750.34px;
@@ -113,18 +121,23 @@ header {
   top: 22px;
   border: none;
   margin-right: 1.83px;
+  background-color: transparent;
 }
 
 .meetup-info {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  width: 1196px;
+  height: 461px;
+  left: 362px;
 }
 
 .meetup-info img {
-  width: 200px;
-  height: auto;
-  margin-right: 20px;
+  width: 379px;
+  height: 269px;
+  top: 96px;
+  left: 655.08px;
 }
 
 .meetup-text {
@@ -132,21 +145,34 @@ header {
 }
 
 .meetup-text h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  width: 600.61px;
+  height: 104px;
 }
 
 .meetup-text p {
   font-size: 16px;
-  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 608.93px;
+  height: 72px;
+  top: 226.5px;
+  margin-top: 24.5px;
 }
 
 .meetup-text button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  width: 125.28px;
+  height: 40px;
+  top: 322.5px;
+  background-color: #00798a;
+  color: #ffffff;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   cursor: pointer;
+  margin-top: 24px;
 }
