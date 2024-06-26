@@ -5,8 +5,6 @@
 }
 
 body {
-  margin-left: 204px;
-  margin-right: 204px;
   width: 1920px;
   height: 3826.5px;
   font-family: "Roboto", sans-serif;
@@ -74,6 +72,7 @@ header {
 .search-magnifier-red {
   width: 42px;
   height: 42px;
+  margin-right: 470.66px;
   background-color: #f65858;
   border-radius: 0px 8px 8px 0px;
   background-image: url("/JsProject/assets/images/magnifierIconRedBtn.svg");
@@ -82,7 +81,7 @@ header {
   border: none;
 }
 
-.search-bar button {
+/* .search-bar button {
   padding: 8px 12px;
   width: 83.13px;
   height: 36px;
@@ -92,7 +91,7 @@ header {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-}
+} */
 
 .language-selector select {
   padding-left: 30px;
@@ -120,29 +119,29 @@ header {
   height: 20px;
   top: 22px;
   border: none;
-  margin-right: 1.83px;
+  margin-right: 11.83px;
   background-color: transparent;
 }
 
 .meetup-info {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 1196px;
   height: 461px;
-  left: 362px;
+  margin-left: 158px;
 }
 
 .meetup-info img {
   width: 379px;
   height: 269px;
   top: 96px;
-  left: 655.08px;
+  margin-right: 161.92px;
 }
 
-.meetup-text {
+/* .meetup-text {
   flex: 1;
-}
+} */
 
 .meetup-text h2 {
   font-size: 42px;
@@ -180,6 +179,7 @@ header {
 .top--events_near--section {
   display: flex;
   margin-top: 24px;
+  margin-left: 158px;
 }
 
 .top--events_near--section > h2 {
@@ -211,8 +211,9 @@ header {
 }
 
 .all_events--link {
-  margin-left: 1090.59px;
+  margin-left: 682.58px;
   margin-top: 14px;
+  width: 105.61px;
   height: 24px;
   font-weight: 500;
   font-size: 16px;
@@ -220,35 +221,39 @@ header {
   color: rgba(0, 121, 138, 1);
 }
 
-#events-cards-grid {
+.events-cards-grid {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(4, 272px);
+  /* grid-template-rows: auto; */
+  align-items: center;
+  gap: 36px;
+  margin-left: 158px;
+  margin-top: 24px;
 }
 
-.events-near--card--event-one {
-  margin-top: 24px;
+.events-near--card--event {
   width: 272px;
   height: 399px;
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 1);
 }
 
-.events-near--card--event-one > img {
+.events-near--card--event > img {
   width: 272px;
   height: 153px;
 }
 
-.events-near--card--event-one > h3 {
+.events-near--card--event > h3 {
   width: 274px;
-  height: 48px;
-  padding-right: 5px;
+  padding-right: 54px;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
+  text-wrap: wrap;
   margin-top: 12px;
 }
 
-.events-category {
+.events-near--card--event > p {
   width: 242.17px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -287,7 +292,7 @@ header {
 }
 
 .attendants {
-  width: 55.36px;
+  width: 62px;
   height: 24px;
   margin-top: 12px;
   margin-left: 6px;
@@ -302,6 +307,7 @@ header {
   height: 33.34px;
   margin-top: 12px;
   margin-left: 6px;
+  margin-bottom: 74px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
