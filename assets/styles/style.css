@@ -176,7 +176,8 @@ header {
   margin-top: 24px;
 }
 
-.top--events_near--section {
+.top--events_near--section,
+.next--events_upcoming--section {
   display: flex;
   margin-top: 24px;
   margin-left: 158px;
@@ -189,6 +190,16 @@ header {
   font-weight: 600;
   line-height: 36px;
   margin-right: 7.8px;
+}
+
+.next--events_upcoming--section > h2 {
+  width: 333.5px;
+  height: 36px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 40px;
+  /* margin-right: 757.09; */
 }
 
 .events_near--section--location_search_input {
@@ -213,6 +224,17 @@ header {
 .all_events--link {
   margin-left: 682.58px;
   margin-top: 14px;
+  width: 105.61px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 121, 138, 1);
+}
+
+.all-upcoming-events--link {
+  margin-left: 757.09px;
+  margin-top: 50px;
   width: 105.61px;
   height: 24px;
   font-weight: 500;
