@@ -246,7 +246,15 @@ header {
 .events-cards-grid {
   display: grid;
   grid-template-columns: repeat(4, 272px);
-  /* grid-template-rows: auto; */
+  align-items: center;
+  gap: 36px;
+  margin-left: 158px;
+  margin-top: 24px;
+}
+
+.upcoming-events--cards--grid {
+  display: grid;
+  grid-template-columns: repeat(4, 272px);
   align-items: center;
   gap: 36px;
   margin-left: 158px;
