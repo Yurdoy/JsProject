@@ -259,6 +259,7 @@ header {
   gap: 36px;
   margin-left: 158px;
   margin-top: 24px;
+  margin-bottom: 40px;
 }
 
 .events-near--card--event {
@@ -341,4 +342,61 @@ header {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.join-meetup--low-section {
+  width: 1192px;
+  height: 1836.5px;
+  margin-left: 158px;
+}
+
+.join-meetup--membership--sign-up--hands-up--drawing {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1192px;
+  height: 236px;
+  border-radius: 8px;
+  background-color: rgba(151, 202, 209, 0.08);
+}
+
+.membership--sign-up {
+  width: 739px;
+  height: 164px;
+  margin: 36px 0px 36px 56px;
+}
+
+.membership--sign-up > h2 {
+  width: 168.54px;
+  height: 36px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.membership--sign-up > p {
+  width: 664.64px;
+  height: 56px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.membership--sign-up > button {
+  width: 192px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgba(227, 35, 89, 1);
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.membership--sign-up > img {
+  width: 341px;
+  height: 196px;
+  margin: 20px 56px 20px 0px;
 }
