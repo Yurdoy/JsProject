@@ -348,6 +348,7 @@ nav {
   width: 1192px;
   height: 1836.5px;
   margin-left: 158px;
+  margin-bottom: 53.5px;
 }
 
 .join-meetup--membership--sign-up--hands-up--drawing {
@@ -586,4 +587,39 @@ nav {
   line-height: 24px;
   color: rgba(0, 121, 138, 1);
   cursor: pointer;
+}
+
+footer {
+  width: 1512px;
+  height: 559px;
+  background-color: rgba(33, 33, 33, 1);
+}
+
+.footer-block {
+  width: 1120px;
+  height: 543px;
+  margin: 16px 196px 0px 196px;
+}
+
+.create-your-own-meetup-group {
+  width: 1120px;
+  height: 69px;
+  margin-top: 8px;
+}
+
+.create-your-own-meetup-group > p {
+  width: 249.17px;
+  height: 24px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(246, 247, 248, 1);
+}
+
+.create-your-own-meetup-group > hr {
+  width: 1120px;
+  height: 69px;
+  border: 1px solid;
+  color: rgba(112, 112, 112, 1);
 }
