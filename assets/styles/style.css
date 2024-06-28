@@ -431,7 +431,7 @@ nav {
   line-height: 36px;
 }
 
-.popular-cities-on-meetup-links > a {
+.popular-cities-on-meetup-links > p {
   width: 830.7px;
   height: 24px;
   font-size: 16px;
@@ -526,5 +526,64 @@ nav {
   line-height: 24px;
   color: rgba(0, 121, 138, 1);
   text-decoration: none;
+  cursor: pointer;
+}
+.friendships-are-made-on-meetup > h2 {
+  width: 448.51px;
+  height: 36px;
+  margin-top: 64px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.friendships-are-made-on-meetup--learn-how {
+  width: 893.45px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(112, 112, 112, 1);
+  cursor: pointer;
+}
+
+.examples-how-to-use-meetup--greed {
+  display: grid;
+  grid-template-columns: repeat(3, 376px);
+  grid-column-gap: 32px;
+  grid-row-gap: 12px;
+  margin-top: 28px;
+}
+.articles-head {
+  margin-top: 12px;
+  width: 327px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgba(33, 33, 33, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.articles-text {
+  width: 370.51px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(112, 112, 112, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.read-more {
+  width: 82.72px;
+  height: 24px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 121, 138, 1);
   cursor: pointer;
 }
