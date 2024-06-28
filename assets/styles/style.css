@@ -425,6 +425,7 @@ nav {
   width: 341.67px;
   height: 36px;
   margin-top: 46px;
+  margin-bottom: 16px;
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
@@ -433,7 +434,6 @@ nav {
 .popular-cities-on-meetup-links > a {
   width: 830.7px;
   height: 24px;
-  margin-top: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -444,7 +444,87 @@ nav {
   display: grid;
   grid-template-columns: repeat(5, 205px);
   justify-items: center;
+  margin-top: 28px;
   grid-column-gap: 41.75px;
   grid-row-gap: 24px;
+  cursor: pointer;
+}
+
+.button-padding {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgba(33, 33, 33, 1);
+  text-decoration: none;
+}
+
+.how-meetup-works > h2 {
+  width: 262.9px;
+  height: 36px;
+  margin-top: 64px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.discover-events--start-group--flex {
+  display: flex;
+  gap: 32px;
+}
+
+.discover-events-and-groups,
+.start-a-group-to-host-events {
+  display: flex;
+  width: 580px;
+  height: 180px;
+  margin-top: 24px;
+  border-radius: 8px;
+  background-color: rgba(151, 202, 209, 0.08);
+}
+
+.discover-events-and-groups > img,
+.start-a-group-to-host-events > img {
+  width: 41px;
+  height: 124px;
+  margin: 32px 24px 24px 24px;
+  padding-bottom: 83px;
+}
+
+.inner-block--discover-events-and-groups,
+.inner-block--start-a-group-to-host-events {
+  width: 379px;
+  height: 124px;
+  margin: 32px 112px 24px 0px;
+}
+
+.inner-block--discover-events-and-groups > h3,
+.inner-block--start-a-group-to-host-events > h3 {
+  width: 272.03px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.inner-block--discover-events-and-groups > p,
+.inner-block--start-a-group-to-host-events > p {
+  width: 361.98px;
+  height: 44px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.inner-block--discover-events-and-groups > a,
+.inner-block--start-a-group-to-host-events > a {
+  width: 199.84px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(0, 121, 138, 1);
+  text-decoration: none;
   cursor: pointer;
 }
