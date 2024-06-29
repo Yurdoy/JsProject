@@ -602,6 +602,7 @@ footer {
 }
 
 .create-your-own-meetup-group {
+  display: flex;
   width: 1120px;
   height: 69px;
   margin-top: 8px;
@@ -610,16 +611,123 @@ footer {
 .create-your-own-meetup-group > p {
   width: 249.17px;
   height: 24px;
-  margin-top: 10px;
+  margin-top: 34px;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
   color: rgba(246, 247, 248, 1);
 }
 
-.create-your-own-meetup-group > hr {
+.get-started-btn {
+  width: 119px;
+  height: 44px;
+  margin-top: 24px;
+  margin-left: 15.8px;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  background-color: rgba(33, 33, 33, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
   width: 1120px;
-  height: 69px;
-  border: 1px solid;
-  color: rgba(112, 112, 112, 1);
+  margin-top: 25px;
+  border-top: 1px solid rgba(112, 112, 112, 1);
+}
+
+.site-map {
+  display: flex;
+  width: 1120px;
+  height: 236px;
+  margin-top: 24px;
+}
+
+.site-nav {
+  width: 373.33px;
+  height: 224px;
+}
+
+.site-nav > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(246, 247, 248, 1);
+}
+
+.site-nav > a {
+  display: flex;
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 20px;
+  color: rgba(197, 196, 196, 1);
+  text-decoration: none;
+}
+
+.follow-us {
+  display: flex;
+  width: 1120px;
+  height: 90px;
+  margin-top: 24px;
+}
+
+.social-links {
+  width: 391px;
+  height: 90px;
+}
+
+.social-links > p {
+  width: 71.48px;
+  height: 24px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(246, 247, 248, 1);
+}
+
+.social-links > a {
+  margin-right: 32px;
+}
+
+.app-stores-link {
+  width: 367px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 483px;
+}
+
+.app-stores-link > a {
+  margin-right: 22.17px;
+}
+
+.terms-and-policy {
+  display: flex;
+  width: 1120px;
+  height: 28px;
+  margin-top: 24px;
+}
+
+.terms-and-policy > p {
+  margin-top: 8px;
+  margin-right: 23.8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.terms-and-policy > a {
+  margin-top: 8px;
+  margin-right: 23.8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  color: rgba(197, 196, 196, 1);
 }
