@@ -1,0 +1,448 @@
+.meetup-info {
+  display: flex;
+  justify-content: center;
+}
+
+.meetup-text h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  max-width: 600.61px;
+  padding: 71px 15px 24.5px 0px;
+  margin-right: 150px;
+}
+
+.meetup-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+  max-width: 608.93px;
+}
+
+.meetup-text button {
+  min-width: 125.28px;
+  min-height: 40px;
+  top: 322.5px;
+  background-color: #00798a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.meetup-info > img {
+  width: 100%;
+  max-width: 379px;
+  min-height: 269px;
+  margin-top: 69px;
+  margin-right: 80px;
+}
+
+.top--events_near--section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25%;
+  margin-top: 24px;
+}
+
+.events-near--search {
+  display: flex;
+  align-items: center;
+  gap: 7.8px;
+}
+
+.events-near--search > h2 {
+  max-width: 160.79px;
+  min-height: 36px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.events_near--section--location_search_input {
+  background-image: url("/JsProject/assets/images/pen_icon--events_near--section.svg");
+  background-repeat: no-repeat;
+  background-position: 205.43px;
+  min-width: 239.42px;
+  min-height: 44px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: rgba(151, 202, 209, 0.12);
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.top--events_near--section > input::placeholder {
+  color: rgba(0, 121, 138, 1);
+}
+
+.all_events--link > a {
+  max-width: 105.61px;
+  min-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 121, 138, 1);
+  text-decoration: none;
+}
+
+.next--events_upcoming--section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 45%;
+}
+
+.next--events_upcoming--section > h2 {
+  max-width: 333.5px;
+  min-height: 36px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.all-upcoming-events--link {
+  max-width: 105.61px;
+  min-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 121, 138, 1);
+}
+
+.events-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 272px);
+  grid-auto-flow: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  margin-top: 24px;
+}
+
+.upcoming-events--cards--grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 272px);
+  align-items: center;
+  gap: 5%;
+}
+
+.events-near--card--event {
+  width: 100%;
+  max-width: 272px;
+  max-height: 399px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.events-near--card--event > h3 {
+  width: 100%;
+  max-width: 274px;
+  padding-right: 54px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-wrap: wrap;
+  margin-top: 12px;
+}
+
+.events-near--card--event > p {
+  max-width: 242.17px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(112, 112, 112, 1);
+}
+
+.events-data {
+  display: flex;
+}
+
+.events-data > p {
+  max-width: 180px;
+  max-height: 20px;
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.attendants--tickets {
+  display: flex;
+}
+
+.attendants--tickets > img {
+  max-width: 20px;
+  max-height: 20px;
+  margin-top: 12px;
+}
+
+.attendants {
+  max-width: 62px;
+  max-height: 24px;
+  margin-top: 12px;
+  margin-left: 6px;
+  margin-right: 15.8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tickets {
+  max-width: 55.36px;
+  max-height: 33.34px;
+  margin-top: 12px;
+  margin-left: 6px;
+  margin-bottom: 74px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.join-meetup--low-section {
+  max-width: 1192px;
+  margin-left: 10%;
+  margin-bottom: 53.5px;
+}
+
+.join-meetup--membership--sign-up--hands-up--drawing {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1192px;
+  border-radius: 8px;
+  background-color: rgba(151, 202, 209, 0.08);
+}
+
+.membership--sign-up {
+  max-width: 739px;
+  margin: 36px 0px 36px 56px;
+}
+
+.membership--sign-up > h2 {
+  max-width: 168.54px;
+  max-height: 36px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.membership--sign-up > p {
+  max-width: 664.64px;
+  max-height: 56px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.membership--sign-up > button {
+  min-width: 192px;
+  min-height: 40px;
+  border-radius: 8px;
+  background-color: rgba(227, 35, 89, 1);
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.explore-top-categories--links > h2 {
+  max-width: 312.39px;
+  max-height: 36px;
+  margin-top: 64px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.categories-links {
+  margin-top: 24px;
+}
+
+.categories-links > a {
+  width: 135px;
+  height: 112px;
+  margin-right: 10.5px;
+  border-radius: 8px;
+}
+
+.popular-cities-on-meetup-links > h2 {
+  max-width: 341.67px;
+  max-height: 36px;
+  margin-top: 46px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.popular-cities-on-meetup-links > p {
+  max-width: 830.7px;
+  max-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(112, 112, 112, 1);
+}
+
+.cities--links {
+  display: grid;
+  grid-template-columns: repeat(5, 205px);
+  justify-items: center;
+  margin-top: 28px;
+  grid-column-gap: 41.75px;
+  grid-row-gap: 24px;
+  cursor: pointer;
+}
+
+.button-padding {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgba(33, 33, 33, 1);
+  text-decoration: none;
+}
+
+.how-meetup-works > h2 {
+  max-width: 262.9px;
+  max-height: 36px;
+  margin-top: 64px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.discover-events--start-group--flex {
+  display: flex;
+  gap: 32px;
+}
+
+.discover-events-and-groups,
+.start-a-group-to-host-events {
+  display: flex;
+  max-width: 580px;
+  max-height: 180px;
+  margin-top: 24px;
+  border-radius: 8px;
+  background-color: rgba(151, 202, 209, 0.08);
+}
+
+.discover-events-and-groups > img,
+.start-a-group-to-host-events > img {
+  max-width: 41px;
+  max-height: 124px;
+  margin: 32px 24px 24px 24px;
+  padding-bottom: 83px;
+}
+
+.inner-block--discover-events-and-groups,
+.inner-block--start-a-group-to-host-events {
+  max-width: 379px;
+  max-height: 124px;
+  margin: 32px 112px 24px 0px;
+}
+
+.inner-block--discover-events-and-groups > h3,
+.inner-block--start-a-group-to-host-events > h3 {
+  max-width: 272.03px;
+  max-height: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.inner-block--discover-events-and-groups > p,
+.inner-block--start-a-group-to-host-events > p {
+  max-width: 361.98px;
+  max-height: 44px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.inner-block--discover-events-and-groups > a,
+.inner-block--start-a-group-to-host-events > a {
+  max-width: 199.84px;
+  max-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(0, 121, 138, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+.friendships-are-made-on-meetup > h2 {
+  max-width: 448.51px;
+  max-height: 36px;
+  margin-top: 64px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.friendships-are-made-on-meetup--learn-how {
+  max-width: 893.45px;
+  max-height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(112, 112, 112, 1);
+  cursor: pointer;
+}
+
+.examples-how-to-use-meetup--greed {
+  display: grid;
+  grid-template-columns: repeat(3, 376px);
+  grid-column-gap: 32px;
+  grid-row-gap: 12px;
+  margin-top: 28px;
+}
+.articles-head {
+  margin-top: 12px;
+  max-width: 327px;
+  max-height: 56px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgba(33, 33, 33, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.articles-text {
+  max-width: 370.51px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(112, 112, 112, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.read-more {
+  max-width: 82.72px;
+  max-height: 24px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 121, 138, 1);
+  cursor: pointer;
+}

@@ -10,61 +10,72 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>page1</title>
   </head>
   <body>
     <nav>
       <div class="search-panel">
         <div class="logo">
-          <img src="assets/images/meetupLogo.svg" alt="Logo" />
+          <a href="http://127.0.0.1:5500/JsProject/page1.html"><img src="assets/images/meetupLogo.svg" alt=""></a>
         </div>
         <div class="search-bar">
-          <input type="text" placeholder="Search events" />
-        </div>
-        <div class="search-location">
-          <input type="text" placeholder="   Mountain View, CA" />
-        </div>
-        <div class="searchInput__btn-right">
-          <button class="search-magnifier-red"></button>
+          <div class="left-search-bar">
+            <input type="text" placeholder="Search events" />
+          </div>
+          <div class="search-location">
+            <input type="text" placeholder="Mountain View, CA" />
+          </div>
+          <div class="searchInput__btn-right">
+            <button class="search-magnifier-red"></button>
+          </div>
         </div>
       </div>
-      <div class="language-selector">
-        <select>
-          <option value="en">English</option>
-          <option value="ru">Русский</option>
-        </select>
-      </div>
-      <div class="user-actions">
-        <button type="submit" class="logInBtn">Log in</button>
-        <button type="submit" class="signUpBtn">Sign Up</button>
+      <div class="nav-btn">
+        <div class="language-selector">
+          <select>
+            <option value="en">English</option>
+            <option value="ru">Russian</option>
+          </select>
+        </div>
+        <div class="user-actions">
+          <button type="submit" class="logInBtn">Log in</button>
+          <button type="submit" class="signUpBtn">Sign Up</button>
+        </div>
       </div>
     </nav>
     <main>
-      <div class="meetup-info">
-        <div class="meetup-text">
-          <h2>The people platform—Where interests become friendships</h2>
-          <p>
+      <div>
+        <div class="meetup-info">
+          <div class="meetup-text">
+            <h2>The people platform—Where interests become friendships</h2>
+            <p>
             Whatever your interest, from hiking and reading to networking and
             skill sharing, there are thousands of people who share it on Meetup.
             Events are happening every day—sign up to join the fun.
-          </p>
-          <button type="submit">Join Meetup</button>
+            </p>
+            <button class="join-meetup-btn" type="submit">Join Meetup</button>
+          </div>
+          <img
+            class="meetup-info"
+            src="assets/images/CyclingTandemPictureEvent.svg"
+            alt="Meetup Image"
+          />
         </div>
-        <img
-          class="meetup-info"
-          src="assets/images/CyclingTandemPictureEvent.svg"
-          alt="Meetup Image"
-        />
       </div>
       <div class="events_near--section">
         <div class="top--events_near--section">
-          <h2>Events near</h2>
-          <input
-            class="events_near--section--location_search_input"
-            type="text"
-            placeholder="Mountain View, CA"
-          />
-          <a class="all_events--link" href="See all events">See all events</a>
+          <div class="events-near--search">
+            <h2>Events near</h2>
+            <input
+              class="events_near--section--location_search_input"
+              type="text"
+              placeholder="Mountain View, CA"
+            />
+            </div>
+            <div class="all_events--link">
+              <a href="See all events">See all events</a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="events-cards-grid">
@@ -435,7 +446,7 @@
         <div class="friendships-are-made-on-meetup">
             <h2>Friendships are made on Meetup</h2>
             <div class="friendships-are-made-on-meetup--learn-how">
-              <a href="">Since 2002, members have been used Meetup to make new friends, meet like-minded people, spend time on hobbies, and connect with locals over shared interests. Learn how.</a>
+              <p>Since 2002, members have been used Meetup to make new friends, meet like-minded people, spend time on hobbies, and connect with locals over shared interests. Learn how.</p>
             </div>
             <div class="examples-how-to-use-meetup--greed">
               <a href=""><img src="assets/images/friendshipsAreMadeOnMeetup/Link → first_article.webp.svg" alt="Picture of the dishes on the table"></a>
