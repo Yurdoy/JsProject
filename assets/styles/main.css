@@ -446,3 +446,15 @@
   color: rgba(0, 121, 138, 1);
   cursor: pointer;
 }
+
+@media screen and (max-width: 393px) {
+  .meetup-text > h2 {
+    max-width: 352.28px;
+    margin: 30px 0px 0px 21px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.5px;
+    /* padding: 71px 15px 24.5px 0px;
+    margin-right: 150px; */
+  }
+}

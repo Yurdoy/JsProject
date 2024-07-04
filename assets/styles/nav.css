@@ -4,19 +4,35 @@ nav {
   align-items: center;
 }
 
-.logo {
+.adaptive {
+  display: none;
+}
+
+picture {
+  max-width: 118.34px;
+  min-height: 34px;
   margin: 15px 40px 15px 24px;
 }
 
-.search-panel {
+.logo--search {
   display: flex;
+  justify-content: center;
 }
 
 .search-bar {
   display: flex;
 }
 
-.search-bar > .left-search-bar input[type="text"] {
+main > .search-bar {
+  display: none;
+}
+
+.left-search-bar > img {
+  position: absolute;
+  margin: 23.75px 270.98px 12.98px 12.75px;
+}
+
+.left-search-bar > input {
   margin-top: 11px;
   padding: 0px 101px 0px 37px;
   width: 100%;
@@ -24,7 +40,6 @@ nav {
   min-height: 42px;
   border-radius: 8px 0px 0px 8px;
   border: 1px solid #d9d9d9;
-  background-image: url("/JsProject/assets/images/searchIcon.svg");
   background-repeat: no-repeat;
   background-position: 12.75px;
   background-size: auto;
@@ -57,55 +72,116 @@ nav {
 
 .nav-btn {
   display: flex;
+  align-items: center;
 }
 
-.language-selector select {
-  padding-left: 30px;
+.language-selector--globe {
+  margin-right: 4px;
+}
+
+.language-selector-btn > button {
   border: none;
-  background-image: url("/JsProject/assets/images/lenguageGlobeIcon.svg");
-  background-repeat: no-repeat;
-  background-position: 10px;
-  margin-right: 22.03px;
-  margin-top: 22px;
+  background-color: transparent;
+  margin-right: 21.83px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
 }
 
 .logInBtn {
   min-width: 41.17px;
   height: 20px;
-  margin-top: 22px;
   border: none;
   margin-right: 11.83px;
   background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
   cursor: pointer;
 }
 
 .signUpBtn {
   min-width: 83.13px;
   min-height: 36px;
-  margin-top: 14px;
   background-color: #00798a;
   color: #fff;
   border: none;
   border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
   cursor: pointer;
 }
 
 @media screen and (max-width: 393px) {
-  .logo {
-    margin: 4px 61px 4px 24px;
-  }
-
-  .search-bar {
+  nav {
     display: none;
   }
 
-  .language-selector select {
-    max-width: 62.34px;
-    max-height: 17.09px;
-    border: none;
-    background-image: url("/JsProject/assets/images/lenguageGlobeIcon.svg");
+  .adaptive {
+    max-width: 392px;
+    min-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo--search {
+    display: flex;
+  }
+
+  .logo {
+    max-width: 94.34px;
+    min-height: 34px;
+    margin: 4px 60.66px 4px 24px;
+  }
+
+  .language-selector--globe {
+    margin-right: 1.42px;
+  }
+
+  .language-selector-btn > button {
+    margin-right: 12.83px 19.15px 12.08px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.09px;
+  }
+
+  .logInBtn {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.09px;
+    margin: 12.83px 18.65px 6.83px 0px;
+  }
+
+  .signUpBtn {
+    margin: 6px 7px 5.24px 0px;
+    min-width: 71.02px;
+    min-height: 30.76px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.09px;
+  }
+
+  main > .search-bar {
+    display: flex;
+  }
+
+  .left-search-bar > img {
+    position: absolute;
+    margin: 23.75px 270.98px 12.98px 30px;
+  }
+
+  .left-search-bar > input {
+    margin: 11px 0px 0px 20px;
+    width: 100%;
+    max-width: 300px;
+    min-height: 42px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #d9d9d9;
     background-repeat: no-repeat;
-    background-position: 10px;
-    margin: 12.83px 18.82px 12.08px 0px;
+    background-position: 12.75px;
+    background-size: auto;
   }
 }

@@ -14,14 +14,15 @@
   </head>
   <body>
     <nav>
-      <div class="search-panel">
-        <div class="logo">
+      <div class="logo--search">
+        <picture class="logo">
           <a href="http://127.0.0.1:5500/JsProject/page1.html"><img src="assets/images/meetupLogo.svg" alt=""></a>
-        </div>
+        </picture>
         <div class="search-bar">
-          <div class="left-search-bar">
-            <input type="text" placeholder="Search events" />
-          </div>
+          <label for="search" class="left-search-bar">
+            <img src="assets/images/searchIcon.svg" alt="Magnifier icon">
+            <input type="search" placeholder="Search events" />
+          </label>  
           <div class="search-location">
             <input type="text" placeholder="Mountain View, CA" />
           </div>
@@ -29,21 +30,39 @@
             <button class="search-magnifier-red"></button>
           </div>
         </div>
-      </div>
+      </div>  
       <div class="nav-btn">
-        <div class="language-selector">
-          <select>
-            <option value="en">English</option>
-            <option value="ru">Russian</option>
-          </select>
-        </div>
-        <div class="user-actions">
-          <button type="submit" class="logInBtn">Log in</button>
-          <button type="submit" class="signUpBtn">Sign Up</button>
-        </div>
+        <img class="language-selector--globe" src="assets/images/lenguageGlobeIcon.svg" alt="Globe icon">
+      <div class="language-selector-btn">
+        <button>English</button>
+      </div>
+        <button type="submit" class="logInBtn">Log in</button>
+        <button type="submit" class="signUpBtn">Sign Up</button>
       </div>
     </nav>
+    <nav class="adaptive">
+      <picture class="logo">
+        <a href="http://127.0.0.1:5500/JsProject/page1.html"><img src="assets/images/meetupLogo.svg" alt=""></a>
+      </picture>
+      <div class="nav-btn">
+        <img class="language-selector--globe" src="assets/images/adaptive-layout-icons/globe-icon.svg" alt="Globe icon">
+      <div class="language-selector-btn">
+        <button>English</button>
+      </div>
+        <button type="submit" class="logInBtn">Log in</button>
+        <button type="submit" class="signUpBtn">Sign Up</button>
+      </div> 
+    </nav>
     <main>
+      <div class="search-bar">
+        <label for="search" class="left-search-bar">
+          <img src="assets/images/searchIcon.svg" alt="Magnifier icon">
+          <input type="search" placeholder="Search events" />
+        </label>
+        <div class="searchInput__btn-right">
+          <button class="search-magnifier-red"></button>
+        </div> 
+      </div>
       <div>
         <div class="meetup-info">
           <div class="meetup-text">
