@@ -448,13 +448,83 @@
 }
 
 @media screen and (max-width: 393px) {
+  .meetup-info {
+    display: block;
+  }
+
   .meetup-text > h2 {
     max-width: 352.28px;
-    margin: 30px 0px 0px 21px;
+    padding: 30px 0px 0px 21px;
+    margin-right: 0;
     font-size: 25px;
     font-weight: 700;
     line-height: 30.5px;
-    /* padding: 71px 15px 24.5px 0px;
-    margin-right: 150px; */
+  }
+
+  .meetup-text p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    max-width: 358px;
+    margin: 20px 14px 0 21px;
+  }
+
+  .meetup-text button {
+    display: none;
+  }
+
+  .meetup-info > img {
+    width: 100%;
+    max-width: 215px;
+    min-height: 152.6px;
+    margin-top: 10px;
+    margin: 10px 89px 0px 89px;
+  }
+
+  .top--events_near--section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25%;
+    margin-top: 24px;
+  }
+
+  .events-near--search {
+    display: flex;
+    align-items: center;
+    gap: 4.81px;
+  }
+
+  .events-near--search > h2 {
+    max-width: 110.19px;
+    min-height: 24.67px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.67px;
+  }
+
+  .events_near--section--location_search_input {
+    background-image: url("/JsProject/assets/images/pen_icon--events_near--section.svg");
+    background-repeat: no-repeat;
+    background-position: 205.43px;
+    min-width: 164.07px;
+    min-height: 30.15px;
+    padding: 8.22px;
+    border-radius: 8px;
+    background-color: rgba(151, 202, 209, 0.12);
+    border: none;
+    font-weight: 600;
+    font-size: 13.71px;
+    line-height: 16.45px;
+  }
+
+  .top--events_near--section > input::placeholder {
+    color: rgba(0, 121, 138, 1);
+  }
+
+  .all_events--link > a {
+    display: none;
   }
 }
