@@ -94,6 +94,10 @@
   text-decoration: none;
 }
 
+hr {
+  display: none;
+}
+
 .next--events_upcoming--section {
   display: flex;
   justify-content: space-around;
@@ -210,10 +214,18 @@
   line-height: 24px;
 }
 
+.adaptive--events-cards {
+  display: none;
+}
+
 .join-meetup--low-section {
   max-width: 1192px;
   margin-left: 10%;
   margin-bottom: 53.5px;
+}
+
+.adaptive--join-meetup {
+  display: none;
 }
 
 .join-meetup--membership--sign-up--hands-up--drawing {
@@ -483,11 +495,10 @@
   }
 
   .top--events_near--section {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    justify-content: center;
     align-items: center;
-    gap: 25%;
-    margin-top: 24px;
+    margin-top: 20.4px;
   }
 
   .events-near--search {
@@ -497,9 +508,9 @@
   }
 
   .events-near--search > h2 {
-    max-width: 110.19px;
+    min-width: 110.19px;
     min-height: 24.67px;
-    margin-right: 15px;
+    margin: 24.4px 4.81px 11.33px 15px;
     font-size: 20px;
     font-weight: 600;
     line-height: 24.67px;
@@ -508,9 +519,10 @@
   .events_near--section--location_search_input {
     background-image: url("/JsProject/assets/images/pen_icon--events_near--section.svg");
     background-repeat: no-repeat;
-    background-position: 205.43px;
+    background-position: 148px;
     min-width: 164.07px;
     min-height: 30.15px;
+    margin: 20.4px 0px 9.85px 0px;
     padding: 8.22px;
     border-radius: 8px;
     background-color: rgba(151, 202, 209, 0.12);
@@ -526,5 +538,147 @@
 
   .all_events--link > a {
     display: none;
+  }
+
+  main > hr {
+    display: block;
+    margin-top: 9.85px;
+    margin-left: 15px;
+    max-width: 370px;
+    border-top: 0.61px solid rgba(217, 217, 217, 1);
+  }
+
+  .events-cards-grid,
+  .upcoming-events--cards--grid {
+    display: none;
+  }
+
+  .adaptive--events-cards {
+    display: flex;
+    min-width: 370.17px;
+    min-height: 64.35px;
+  }
+
+  .adaptive--events-cards > picture {
+    min-width: 97.51px;
+    min-height: 54.99px;
+    border-radius: 4.9px;
+    margin: 9.81px 7.35px 9.36px 15px;
+  }
+
+  .adaptive--events-data {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 265.3px;
+    min-height: 64.35px;
+    margin: 9.81px 7.83px 0px 0px;
+  }
+
+  .adaptive--events-calendar {
+    /* max-width: 122px;
+    max-height: 13px; */
+    margin-top: 2.19px;
+    font-size: 8.58px;
+    font-weight: 500;
+    line-height: 12.26px;
+    color: rgba(124, 111, 80, 1);
+    cursor: pointer;
+  }
+
+  .adaptive--events-header h3 {
+    margin-top: 1.97px;
+    /* max-width: 265.3px;
+    max-height: 17.16px; */
+    font-size: 9.81px;
+    font-weight: 500;
+    line-height: 14.71px;
+    color: rgba(33, 33, 33, 1);
+    /* text-decoration: none; */
+    cursor: pointer;
+  }
+
+  .adaptive--events-category {
+    /* max-width: 265.3px;
+    max-height: 12.26px; */
+    font-size: 8.58px;
+    font-weight: 400;
+    line-height: 12.26px;
+    color: rgba(112, 112, 112, 1);
+    cursor: pointer;
+  }
+
+  .adaptive--event-type {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .adaptive--event-type > img {
+    min-width: 9.73px;
+    min-height: 9.73px;
+    color: rgba(112, 112, 112, 1);
+  }
+
+  .adaptive--event-type > p {
+    /* max-width: 44.54px;
+    max-height: 9.73px; */
+    font-size: 7.3px;
+    font-weight: 500;
+    line-height: 9.73px;
+    color: rgba(112, 112, 112, 1);
+  }
+
+  .all-upcoming-events--link {
+    display: none;
+  }
+
+  .next--events_upcoming--section > h2 {
+    display: block;
+    max-width: 330px;
+    min-height: 25px;
+    margin: 65.58px 135px 0px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  .join-meetup--membership {
+    display: none;
+  }
+
+  .adaptive--join-meetup {
+    display: flex;
+    max-width: 392px;
+    background-color: rgba(151, 202, 209, 0.08);
+  }
+
+  .membership--sign-up > h2 {
+    max-width: 168.54px;
+    max-height: 36px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  .membership--sign-up > p {
+    max-width: 664.64px;
+    max-height: 56px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .membership--sign-up > button {
+    min-width: 192px;
+    min-height: 40px;
+    border-radius: 8px;
+    background-color: rgba(227, 35, 89, 1);
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
   }
 }
